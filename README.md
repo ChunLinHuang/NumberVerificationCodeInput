@@ -11,7 +11,7 @@
         app:box_bg_color="@android:color/holo_blue_bright"
         android:id="@+id/code_input"
         ></hcl.numberverificationcodeinput.VerificationCodeInput> 
-        ```
+```
 ## 注意：textview背景，优先使用 box_bg属性，在使用box_bg_color属性
 ### 监听输入完成：
 ```
@@ -21,8 +21,8 @@ VerificationCodeInput code_input = (VerificationCodeInput) findViewById(R.id.cod
             public void onComplete(String content) {
                 Toast.makeText(getApplicationContext(), content, Toast.LENGTH_SHORT).show();
             }
-        });
-           ```
+        });       
+```
 ## 属性介绍：
 ```
 box:设置输入框数量，默认4个
@@ -32,4 +32,5 @@ child_height：设置每个box高
 box_bg：设置box背景--drawable，当和box_bg_color一起使用时，优先使用box_bg
 box_bg_color：设置box颜色---color，当和box_bg一起使用时，优先使用box_bg
 text_color：设置box文本颜色
-   ```
+
+```
