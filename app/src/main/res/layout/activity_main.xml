@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hcl.numberverificationcodeinput.MainActivity"
+    android:gravity="center">
+
+    <hcl.numberverificationcodeinput.VerificationCodeInput
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:box="4"
+        app:box_bg="@drawable/verification_box_bg"
+        app:child_h_padding="10dp"
+        app:text_color="@android:color/holo_red_dark"
+        app:box_bg_color="@android:color/holo_blue_bright"
+        android:id="@+id/code_input"
+        ></hcl.numberverificationcodeinput.VerificationCodeInput>
+
+</LinearLayout>
